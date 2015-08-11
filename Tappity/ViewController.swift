@@ -42,6 +42,10 @@ class ViewController: UIViewController {
     func newFeature() {
         println("Hello")
     }
+    
+    func aNewerFeature() {
+        println("Hello, again")
+    }
 
     // Called each time the NSTimer ticks (every second)
     func timerTick(sender: NSTimer) {
