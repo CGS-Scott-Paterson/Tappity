@@ -65,7 +65,7 @@ class ViewController: UIViewController {
                 self.timeRemaining = 30
                 self.score = 0
                 self.scoreLabel.text = "0"
-                self.timeRemainingLabel.text = "30"
+                self.timeRemainingLabel.text = "15"
             })
             gameOverAlert.addAction(dismissAlertAction)
 
